@@ -1,0 +1,162 @@
+/* This is a CSS comment */
+p {
+    font-family: 'Merriweather', sans-serif; /* Change font family */
+    font-size: 16px; /* Change font size */
+    line-height: 1.5; /* Change line spacing */
+    color: #000000; /* Change text color */
+    background-color: rgb(152, 162, 232, 0.816); /* Change background color */
+    border: 1px solid rgb(152, 162, 232, 0.816); /* Add border */
+    padding: 10px; /* Add padding = the padding is the space just outside the content, some kind of border */
+    margin: 20px 0; /* Add margin = the space between elements */
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-image: url();
+    background-size: cover;
+    background-color: rgb(127, 139, 228, 0.816); /* Change background color */
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+.profile-pic {
+    object-fit:cover;
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 1px;
+    box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.25);
+}
+
+i {
+    color: rgb(0, 0, 0);
+    margin:0;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8);
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(25, 13, 116);
+    font-size: 14px;
+    font-family: 'Merriweather', sans-serif;
+}
+
+a:hover{
+    color: rgb(51, 38, 151);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    text-align:center;
+}
+
+i {
+    color: black;
+    font-size: 48px;
+    margin: 20px 48px 45px 98px;
+}
+
+#leader {
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.9);
+}
+
+.icon {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: bolder;
+    text-decoration: none;
+    margin:10px 40px;
+    transition: opacity 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+.icon:hover {
+    color: rgb(51, 38, 151);
+    opacity: 0.8;
+}
+
+.card-white {
+    background-color: rgba(152, 162, 232, 0.816);
+    margin: 24px 0;
+    padding: 30px;
+    border: 4px solid rgb(152, 162, 232, 0.816);
+    box-shadow: 2px 2px 10px 10px rgba(0,0,0,.1);
+    transition: box-shadow 0.6s;
+    border-radius: 12px;
+}
+
+.last-card {
+    padding: 30px 0px;
+}
+  
+.card-white:hover {
+    box-shadow: 0px 0px 25px 10px rgba(81, 94, 192, 0.816);
+}
+
+#container {
+    width: 700px;
+    margin: 24px auto;
+}
+
+.button {
+    background-color: rgba(101, 112, 191, 0.816);
+    color: black;
+    text-decoration: none;
+    padding: 12px 24px;
+    transition: opacity 0.4s ease-in-out, color 0.4s ease-in-out;
+    border-radius: 6px;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+
+/* To make my page responsive, the width is adapted to the screen size */
+@media (max-width: 600px) {
+    #container {
+        width: 450px;
+    }
+
+    a {
+        font-size: 12px;
+    }
+}
